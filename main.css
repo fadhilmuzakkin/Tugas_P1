@@ -1,6 +1,7 @@
 body{
     background-color: rgb(220, 255, 138);
 }
+
 hr{
     margin-top: 50px;
     margin-bottom: 50px ;
@@ -9,4 +10,8 @@ hr{
     border-top-style: dotted;
     width: 30%;
     border-color:red ;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
 }
