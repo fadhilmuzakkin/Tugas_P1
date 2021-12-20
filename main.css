@@ -17,6 +17,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 ol,ul,img,p{
+    text-align: justify;
     display: block;
     max-width: 500px;
     margin-top: 0;
