@@ -108,3 +108,11 @@ tr:hover{
     max-width: 70%;
     margin: auto;
 }
+
+.form-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-bottom: 100px;
+}
