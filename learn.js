@@ -99,3 +99,30 @@ console.log(hewan); // menampilkan array terbaru
 
 console.log(hewan.sort()); // mengurutkan Array
 console.log(hewan); // menampilkan array terbaru
+
+
+let mhs = {
+    firstName: "Fadhil", // membuat variabel firstName
+    lastName : "Muzakki", // membuat variabel lastName
+    NPM: "203510245", // membuat variabel NPM
+    jenisKel: "Laki-laki", // membuat variabel jenisKel
+    alamat: "Planet Bumi", // membuat variabel alamat
+
+    info : function() { // membuat fungsi info
+    return this.firstName + " " + this.lastName; //menggabungkan nama depan dan belakang
+    }
+};
+
+console.log(mhs.firstName); //menampilkan firstName menggunakan metode Dot Notation
+console.log(mhs.lastName); //menampilkan lastName menggunakan metode Dot Notation
+console.log(mhs.NPM); //menampilkan NPM menggunakan metode Dot Notation
+console.log(mhs.jenisKel); //menampilkan jenisKel menggunakan metode Dot Notation
+console.log(mhs.alamat); //menampilkan alamat menggunakan metode Dot Notation
+console.log(mhs.info()); //menampilkan info menggunakan metode Dot Notation
+
+console.log(mhs["firstName"]); //menampilkan firstName menggunakan metode Bracket Notation
+console.log(mhs["lastName"]); //menampilkan lastName menggunakan metode Bracket Notation
+console.log(mhs["NPM"]); //menampilkan NPM menggunakan metode Bracket Notation
+console.log(mhs["jenisKel"]); //menampilkan jenisKel menggunakan metode Bracket Notation
+console.log(mhs["alamat"]); //menampilkan alamat menggunakan metode Bracket Notation
+console.log(mhs["info"]()); //menampilkan info menggunakan metode Bracket Notation
