@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
 
-ol,ul,img,p{
+ol,img,p{
     text-align: justify;
     display: block;
     max-width: 500px;
@@ -26,9 +26,19 @@ ol,ul,img,p{
     margin-right: auto;
 }
 
+.list{
+    text-align: justify;
+    display: block;
+    max-width: 500px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #navbar{
     list-style-type:none;
     margin: 0;
+    margin-bottom: 10px;
     padding: 0;
     overflow: hidden;
     background-color:rgb(255, 0, 0);
@@ -44,7 +54,7 @@ ol,ul,img,p{
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
 }
 
@@ -92,6 +102,7 @@ tr:hover{
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 6%;
     margin-bottom: auto;
 }
 
@@ -118,7 +129,7 @@ tr:hover{
 }
 
 .form-contact{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
@@ -189,10 +200,11 @@ input[type=checkbox]{
 .grid-container{
     display: grid;
     grid-template-areas: "article-1 article-2 article-3 article-4";
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .article-title{
+    padding-top: 90px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -201,18 +213,20 @@ input[type=checkbox]{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
 
 .sidebar a{
+    margin-top: 10px;
     display: block;
     color: rgb(255, 0, 0);
     padding: 8px 16px;
     text-decoration: none;
-    width: 200px;
+    width: 100px;
 }
 
 .sidebar a:hover{
-    background-color: #ff0000;
+    background-color: #000000;
     color: white;
     text-decoration: none;
 }
@@ -221,4 +235,3 @@ p.fl:first-letter {
     font-size: 50px;
     font-weight: bold;
 }
-
