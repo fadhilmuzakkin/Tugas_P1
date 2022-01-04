@@ -27,3 +27,15 @@ console.log('x++ =', x++) //menampilkan nilai increment x
 console.log('++x =', ++x) //menjumlahkan nilai x dan mengembalikan nilai x
 console.log('x-- =', x--) //menampilkan nilai decrement x
 console.log('--x =', --x) //kebalikan dari increment x
+
+let a = 8 // membuat variabel a dengan nilai 8
+let b = 4 // membuat variabel b dengan nilai 4
+console.log(a, b) // menampilkan nilai a dan b
+console.log('a > b =', a > b) // menampilkan true 
+console.log('a < b =', a < b) // menampilkan false 
+console.log('a >= b =', a >= b) // menampilkan true 
+console.log('a <= b =', a <= b) // menampilkan false 
+console.log('a == b =', a == b) // menampilkan false 
+console.log('a != b =', a != b) // menampilkan true 
+console.log('a === b =', a === b) // menampilkan false 
+console.log('a !== b =', a !== b) // menampilkan true 
