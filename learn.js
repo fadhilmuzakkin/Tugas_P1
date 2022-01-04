@@ -55,3 +55,22 @@ console.log('!true =', !true) // not true menampilkan nilai false
 console.log('!false =', !false) // not false menampilkan nilai true 
 
 
+function luasPersegi(sisi){
+    let luasPersegi = sisi * sisi;
+    return luasPersegi;
+}
+console.log('Luas Persegi = ',luasPersegi(15)); // menampilkan luas persegi = 225
+
+function luasSegitiga(a,t){
+    let luasSegitiga = 0.5 * a * t;
+    return luasSegitiga;
+}
+console.log('Luas Segitiga = ', luasSegitiga(15,12)); // menampilkan luas segitiga = 90
+
+function volumeBalok(p,l,t){
+    let volumeBalok = p * l * t;
+    return volumeBalok;
+}
+console.log('Volume Balok = ', volumeBalok(15,12,20)); // menampilkan volume balok = 3600
+
+
