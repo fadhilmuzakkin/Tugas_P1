@@ -74,3 +74,28 @@ function volumeBalok(p,l,t){
 console.log('Volume Balok = ', volumeBalok(15,12,20)); // menampilkan volume balok = 3600
 
 
+var hewan = ["Ayam", "Beruang", "Cicak", "Domba"];
+console.log(hewan[0]);
+console.log(hewan[1]);
+console.log(hewan[2]);
+console.log(hewan[3]);
+
+hewan[1]="Gajah"; //mengganti array 1 menjadi Gajah
+console.log(hewan); // menampilkan array terbaru
+
+hewan.push("Beruang"); //menambah array baru Beruang
+console.log(hewan); // menampilkan array terbaru
+
+hewan.pop("Beruang"); // melihat dan menghapus item dari Array
+console.log(hewan); // menampilkan array terbaru
+
+console.log('Panjang Array = ', hewan.length); // menghitung panjang Array 
+
+hewan.unshift("Elang"); // menambah Elang di awal Array
+console.log(hewan); // menampilkan array terbaru
+
+hewan.shift(); // menampilkan dan menghapus item awal dari array
+console.log(hewan); // menampilkan array terbaru
+
+console.log(hewan.sort()); // mengurutkan Array
+console.log(hewan); // menampilkan array terbaru
