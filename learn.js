@@ -126,3 +126,13 @@ console.log(mhs["NPM"]); //menampilkan NPM menggunakan metode Bracket Notation
 console.log(mhs["jenisKel"]); //menampilkan jenisKel menggunakan metode Bracket Notation
 console.log(mhs["alamat"]); //menampilkan alamat menggunakan metode Bracket Notation
 console.log(mhs["info"]()); //menampilkan info menggunakan metode Bracket Notation
+
+
+console.log(0.1 + 0.2 == 0.3) // jika di hitung, hasil dari 0.1 + 0.2 = 0.300000000000000004, maka tidak sama dengan 0.3 karaena itu hasilnya false
+console.log(1 + "1") // menampilkan angka 11 karena itu merupakan penggabungan antara numerik dan string
+console.log(1 - "1") // menampilkan angka 0 karena operator - hanya untuk numerik, maka keduanya akan diubah menjadi numerik
+console.log(1 < 2 < 3) // hasilnya true karena 1<2= menghasilkan nilai true yang mana true = 1, 1<3 maka hasilnya akan true
+console.log(3 > 2 > 1) // hasilnya false karena 3>2= menghasilkan nilai true yang mana true = 1, 1>1 hasilnya akan false
+console.log(null == 0) // hasilnya false karena nilai null tidak sama dengan nilai type int
+console.log(null > 0) // hasilnya false karena nilai null=+0 sama dengan 0
+console.log(null >= 0) // hasilnya true karena null <0 menghasilkan false maka sudah seharusnya null >=0 menghasilkan true
