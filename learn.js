@@ -14,3 +14,16 @@ console.log(phi)
 window.alert("Angka favorit saya adalah : " + myNumber)
 window.alert('Angka favorit saya adalah : ' + myNumber)
 window.alert(`Angka favorit saya adalah : ${myNumber}`)
+
+let x = 8 // membuat variabel x dengan nilai 8
+let y = 4 // membuat variabel y dengan nilai 4
+console.log(x, y) // menampilkan nilai x dan y
+console.log('x + y =', x + y) // menampilkan hasil penjumlahan nilai x dan y
+console.log('x - y =', x - y) // menampilkan hasil pengurangan nilai x dan y
+console.log('x * y =', x * y) // menampilkan hasil perkalian nilai x dan y
+console.log('x / y =', x / y) //menampilkan hasil pembagian nilai x dan y
+console.log('x % y =', x % y) //menampilkan hasil sisa bagi dari nilai x dan y
+console.log('x++ =', x++) //menampilkan nilai increment x
+console.log('++x =', ++x) //menjumlahkan nilai x dan mengembalikan nilai x
+console.log('x-- =', x--) //menampilkan nilai decrement x
+console.log('--x =', --x) //kebalikan dari increment x
