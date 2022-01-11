@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>If Else</title>
+</head>
+<body>
+    <script>
+        alert("Ini Contoh Program Menggunakan IF ELSE");
+        var name=prompt("Masukkan Nama: ");
+        var x=prompt("Masukkan Nilai (1-100): ");
+        
+        if (x >= 90 && x <= 100) {
+            document.write("Nama ",name,"<br>")
+            document.write("Nilai Anda ",x," (Sangat Baik)");
+        } else if (x >= 80 && x < 90) {
+            document.write("Nama ",name,"<br>")
+            document.write("Nilai Anda ",x," (Baik)");
+        } else if (x >= 70 && x < 80) {
+            document.write("Nama ",name,"<br>")
+            document.write("Nilai Anda ",x," (Cukup)");
+        } else if (x >= 60 && x < 70) {
+            document.write("Nama ",name,"<br>")
+            document.write("Nilai Anda ",x," (Kurang)");
+        } else if (x < 60) {
+            document.write("Nama ",name,"<br>")
+            document.write("Nilai Anda ",x," (Sangat Kurang)");
+        } else {
+            document.write("ANDA TOLOL!");
+        }
+
+    </script>
+</body>
+</html>
